@@ -30,7 +30,7 @@ public class CustomersServiceIT {
 	
 	@Test
 	@Transactional
-	@Sql("customer.sql")
+	@Sql("classpath:customer.sql")
 	public void testFindCustomerById() {
 		Customer customer = customersService.getCustomerById(1);
 		assertNotNull(customer);
