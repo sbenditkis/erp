@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.temkin.erp.model.customer.Customer;
-import org.temkin.erp.services.CustomersService;
+import org.temkin.erp.services.customer.CustomersService;
 
 @RestController
 @RequestMapping("/customer")

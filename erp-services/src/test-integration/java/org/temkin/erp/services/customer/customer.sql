@@ -1,0 +1,1 @@
+insert into Customer (name) values ('Vasya');
